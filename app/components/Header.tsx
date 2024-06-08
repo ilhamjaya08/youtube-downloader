@@ -5,7 +5,7 @@ import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button, DropdownIt
 export default function Header() {
 
   return (
-    <Navbar className="border-b-2 border-gray-900">
+    <Navbar className="border-b-2 border-gray-900 bg-gradient-to-r from-red-400 via-pink-700 to-red-400">
       <NavbarBrand>
         <p className="font-bold text-inherit">ACME</p>
       </NavbarBrand>
