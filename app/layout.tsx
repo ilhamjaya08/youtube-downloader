@@ -17,7 +17,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="bg-gradient-to-r from-red-200 via-pink-100 to-red-200">
       <body className={ubuntu.className}>
         <NextUIProvider>
           <Header />
